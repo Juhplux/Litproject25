@@ -1,0 +1,222 @@
+.container {
+    margin:100px 6ch 50px 6ch ;
+}
+
+h1 {
+    font-family: monospace;
+      font-size: 3em;
+    margin:50px 6ch;
+}
+
+p {
+white-space: nowrap;
+  overflow: hidden;
+  border-right: 3px solid black;
+  font-family: monospace;
+  font-size: 2em;
+  text-align: left;
+}
+
+.l1 {
+  width: 39ch;
+  animation: typing 3.5s steps(39), blink 0.5s step-end 10 alternate;
+  animation-fill-mode: forwards;
+  animation-delay: 2s;
+  visibility: hidden;
+
+}
+
+.l2{
+    width: 19ch;
+  animation: typing 3s steps(19), blink 0.5s step-end 5 alternate;
+  animation-fill-mode: forwards;
+  animation-delay: 5.5s;
+  /*Wait time: */
+  visibility: hidden;
+}
+
+.l3{
+    width: 49ch;
+  animation: typing 4s steps(49), blink 0.5s step-end 10 alternate;
+  animation-fill-mode: forwards;
+  animation-delay: 8.5s;
+  visibility: hidden;
+}
+
+.l4{
+    width: 43ch;
+  animation: typing 4s steps(43), blink 0.5s step-end 10 alternate;
+  animation-fill-mode: forwards;
+  animation-delay: 12.5s;
+  visibility: hidden;
+}
+
+.l5{
+    width: 23ch;
+  animation: typing 3s steps(23), blink 0.5s step-end 5 alternate;
+  animation-fill-mode: forwards;
+  animation-delay: 16.5s;
+  visibility: hidden;
+}
+
+.l6{
+    width: 35ch;
+  animation: typing 3.5s steps(35), blink 0.5s step-end 10 alternate;
+  animation-fill-mode: forwards;
+  animation-delay: 19.5s;
+  visibility: hidden;
+}
+
+.l7{
+    width: 36ch;
+  animation: typing 3.5s steps(36), blink 0.5s step-end 10 alternate;
+  animation-fill-mode: forwards;
+  animation-delay: 23s;
+  visibility: hidden;
+}
+
+.l8{
+    width: 14ch;
+  animation: typing 2s steps(14), blink 0.5s step-end 5 alternate;
+  animation-fill-mode: forwards;
+  animation-delay: 26.5s;
+  visibility: hidden;
+}
+
+.l9{
+    width: 47ch;
+  animation: typing 4s steps(47), blink 0.5s step-end 10 alternate;
+  animation-fill-mode: forwards;
+  animation-delay: 28.5s;
+  visibility: hidden;
+}
+
+.l10{
+    width: 39ch;
+  animation: typing 4s steps(39), blink 0.5s step-end 10 alternate;
+  animation-fill-mode: forwards;
+  animation-delay: 32.5s;
+  visibility: hidden;
+}
+
+
+.l11{
+    width: 36ch;
+  animation: typing 3.5s steps(36), blink 0.5s step-end 10 alternate;
+  animation-fill-mode: forwards;
+  animation-delay: 36.5s;
+  visibility: hidden;
+}
+
+
+.l12{
+    width: 19ch;
+  animation: typing 1.5s steps(19), blink 0.5s step-end 5 alternate;
+  animation-fill-mode: forwards;
+  /*wait: 1s*/
+  animation-delay: 41s;
+  visibility: hidden;
+}
+
+
+.l13{
+    width: 53ch;
+  animation: typing 4s steps(53), blink 0.5s step-end 10 alternate;
+  animation-fill-mode: forwards;
+  animation-delay: 42.5s;
+  visibility: hidden;
+}
+
+
+.l14{
+    width: 47ch;
+  animation: typing 5s steps(47), blink 0.5s step-end 10 alternate;
+  animation-fill-mode: forwards;
+  animation-delay: 46.5s;
+  visibility: hidden;
+}
+
+.l15{
+    width: 42ch;
+  animation: typing 4s steps(42), blink 0.5s step-end 10 alternate;
+  animation-fill-mode: forwards;
+  animation-delay: 51.5s;
+  visibility: hidden;
+}
+
+.l16{
+    width: 57ch;
+  animation: typing 4.5s steps(57), blink 0.5s step-end 10 alternate;
+  animation-fill-mode: forwards;
+  animation-delay: 55.5s;
+  visibility: hidden;
+}
+
+.l17{
+    width: 33ch;
+  animation: typing 4s steps(33), blink 0.5s step-end 10 alternate;
+  animation-fill-mode: forwards;
+  animation-delay: 60s;
+  visibility: hidden;
+}
+
+.l18{
+    width: 32ch;
+  animation: typing 3.5s steps(32), blink 0.5s step-end 10 alternate;
+  animation-fill-mode: forwards;
+  animation-delay: 64s;
+  visibility: hidden;
+}
+
+.l19{
+    width: 51ch;
+  animation: typing 4.5s steps(51), blink 0.5s step-end 10 alternate;
+  animation-fill-mode: forwards;
+  animation-delay: 67.5s;
+  visibility: hidden;
+}
+
+
+.l20{
+    width: 10ch;
+  animation: typing 1s steps(10), blink 0.5s step-end 5 alternate;
+  animation-fill-mode: forwards;
+  animation-delay: 76s;
+  visibility: hidden;
+}
+
+.l21{
+    width: 23ch;
+  animation: typing 3s steps(23), blink 0.5s step-end 5 alternate;
+  animation-fill-mode: forwards;
+  animation-delay: 77s;
+  visibility: hidden;
+}
+
+.l22{
+    width: 21ch;
+  animation: typing 3s steps(23), blink 0.5s step-end 5 alternate;
+  animation-fill-mode: forwards;
+  animation-delay: 80s;
+  visibility: hidden;
+}
+
+.l23{
+    width: 28ch;
+  animation: typing 3s steps(28), blink 0.5s step-end 5 alternate;
+  animation-fill-mode: forwards;
+  animation-delay: 83s;
+  visibility: hidden;
+}
+
+@keyframes blink {
+    50% {border-color: transparent}
+}
+
+@keyframes typing {
+     0% {width: 0; }
+  99.9% {border-right: .15em solid black}
+  100% {border: none; }
+    
+}
+
