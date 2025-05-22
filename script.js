@@ -1,3 +1,8 @@
+
+var audio = new Audio('Valencia Dr 5.mp3');
+function play() {
+  audio.play();
+}
 const line1 = document.getElementById("L1");
 const line2 = document.getElementById("L2");
 const line3 = document.getElementById("L3");

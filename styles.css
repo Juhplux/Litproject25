@@ -2,6 +2,14 @@
     margin:100px 6ch 50px 6ch ;
 }
 
+button {
+    padding:20px;
+    margin:0 12ch 0 12ch;
+    font-family: monospace;
+    font-size: 1.5em;
+    border-radius: 10%;
+}
+
 h1 {
     font-family: monospace;
       font-size: 3em;
